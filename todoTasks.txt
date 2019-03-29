@@ -1,5 +1,5 @@
-<html><strike>Write a crossed line</strike></html>
 Clean house
+<html><strike>Write a crossed line</strike></html>
 Do groceries
 Read a book
 Do nothing

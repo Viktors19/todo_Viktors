@@ -138,7 +138,7 @@ public class TodoUI {
 
     private void createTask(JPanel taskPanel, HashMap<JCheckBoxMenuItem, JPanel> checkBoxes, String taskName) {
         JCheckBoxMenuItem cb = new JCheckBoxMenuItem(taskName);
-        //if ()
+        if (taskName.contains("<strike>")) {cb.setState(true);}
         cb.addActionListener(j->{
             if (cb.getState()) {
                 cb.setText("<html><strike>"+cb.getText()+"</strike></html>");
